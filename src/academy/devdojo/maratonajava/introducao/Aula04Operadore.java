@@ -9,6 +9,38 @@ public class Aula04Operadore {
 
         System.out.println(numero1 + numero2);
 
+        //operadores relacionais e logicos
+
+        boolean isDezMaiorQueVinte = 10 > 20;
+        boolean isDezMenorQueVinte = 10 < 20;
+        boolean isDezIgualVinte = 10 == 20;
+        boolean isDezIgualDez = 10 == 10;
+        boolean isDezDiferenteDez = 10 != 10;
+
+        int idade = 35;
+        float salario = 3500f;
+        boolean isDentroDaLeiMaiorQueTrinta = idade > 30 && salario >= 4612;
+        boolean isDentroDaLeiMenorQueTrinta = idade < 30 && salario > 3381;
+
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupança = 1000;
+        float valorPlaystattion = 5000f;
+
+        boolean isPlaystationCincoCompravel = valorTotalContaCorrente > valorPlaystattion || valorTotalContaPoupança > valorPlaystattion;
+
+        //atribuiçao = += -= *= /= %= ++ --
+        double bonus = 1800;
+
+        bonus += 1000;
+        bonus -= 200;
+        bonus *= 20;
+        bonus /= 2;
+        bonus %= 2;
+        bonus++;
+
+
+
+
     }
 
 }
