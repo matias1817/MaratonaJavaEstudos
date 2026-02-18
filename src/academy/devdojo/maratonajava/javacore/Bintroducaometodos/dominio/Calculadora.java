@@ -36,6 +36,22 @@ public class Calculadora {
         System.out.println(number2);
     }
 
+    public void somaArraay(int[] numeros){
+        int soma = 0;
+        for (int num: numeros){
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+    public void somaArraayVarArgs(int... numeros){
+        int soma = 0;
+        for (int num: numeros){
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+
+
 
 
 }
